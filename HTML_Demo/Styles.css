@@ -1,0 +1,48 @@
+﻿.header
+{
+    height:20px;
+    background-color:aqua;
+}
+.menu
+{
+    height:70px;
+    background-color:aqua;
+}
+    .menu ul {
+        display: inline-flex;
+        float: right;
+    }
+    .menu ul li
+    {
+        list-style:none;
+        margin-right:55px;
+        
+    }
+        .menu ul li a 
+        {
+            text-decoration: none;
+            color:black;
+            font-size:20px;
+            font-weight:100;
+        }
+        a:hover
+        {
+            color:red!important;
+        }
+.banner
+{
+    background-color:yellow;
+    background-image : url(shop3.jpg);
+    height:250px;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.main_content
+{
+
+}
+.footer {
+    height: 70px;
+    background-color: honeydew;
+    
+}
